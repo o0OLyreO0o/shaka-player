@@ -1,0 +1,59 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  // Theme configuration
+  "theme": "opencode",
+  "default_agent": "plan",
+   "tools": {
+    "skills*": true,
+  },
+"agent": {
+    "translator": {
+      "disable": true,
+    },
+"translatorII": {
+      "disable": true,
+    },
+"translatorIII": {
+      "disable": true,
+    },
+"guide": {
+      "disable": true,
+    },
+"guideII": {
+      "disable": true,
+    },
+"guideIII": {
+      "disable": true,
+    },
+  },
+  // "model": "anthropic/claude-sonnet-4-5",
+  // "autoupdate": true,
+  // "agent": {
+  //   "build": {
+  //     "mode": "primary",
+  //     // "prompt": "{file:./prompts/build.txt}",
+  //     "tools": {
+  //       "write": true,
+  //       "edit": true,
+  //       "bash": true
+  //     }
+  //   },
+  //   "plan": {
+  //     "mode": "primary",
+  //     "tools": {
+  //       "write": false,
+  //       "edit": false,
+  //       "bash": false
+  //     }
+  //   },
+  //   "code-reviewer": {
+  //     "description": "Reviews code for best practices and potential issues",
+  //     "mode": "subagent",
+  //     "prompt": "You are a code reviewer. Focus on security, performance, and maintainability.",
+  //     "tools": {
+  //       "write": false,
+  //       "edit": false
+  //     }
+  //   }
+  // },
+}

@@ -111,6 +111,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "build": "python3 build/all.py",
+    "build:ii": "python3 build/build.py +@complete -@ads -@offline -@fairplay",
     "prepack": "clean-package",
     "postpack": "clean-package restore",
     "prepublishOnly": "python3 build/checkversion.py && python3 build/all.py --force"

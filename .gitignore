@@ -1,7 +1,7 @@
 *.pyc
 *~
 node_modules
-dist/
+# dist/
 docs/api/
 coverage/
 .DS_Store
